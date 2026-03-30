@@ -91,26 +91,8 @@ Les performances obtenues sur le jeu de test (20 % des données, stratifié) son
 ```
 churn-prediction-r/
 │
-├── data/
-│   ├── raw/
-│   │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Données brutes (à télécharger)
-│   └── processed/                                   # Données nettoyées (générées)
-│
-├── notebooks/
-│   └── churn_prediction.Rmd                         # Notebook principal (ce fichier)
-│
-├── R/
-│   ├── preprocess.R                                 # Fonctions de prétraitement
-│   ├── train.R                                      # Fonctions d'entraînement
-│   └── evaluate.R                                   # Fonctions d'évaluation
-│
-├── reports/
-│   └── churn_prediction.html                        # Rapport HTML généré
-│
-├── renv.lock                                        # Verrouillage des versions de packages
-├── .Rprofile                                        # Activation automatique de renv
-├── churn-prediction-r.Rproj                         # Projet RStudio
-└── README.md
+├─ churn_prediction_colab.ipynb   # Notebook principal 
+└── README.md ce fichier
 ```
 
 ---
