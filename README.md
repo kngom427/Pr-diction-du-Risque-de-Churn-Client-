@@ -125,18 +125,11 @@ Cette commande installe exactement les mêmes versions de packages que celles ut
 
 **3. Télécharger les données**
 
-Télécharger le fichier `WA_Fn-UseC_-Telco-Customer-Churn.csv` depuis [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) et le placer dans `data/raw/`.
+Télécharger le fichier `WA_Fn-UseC_-Telco-Customer-Churn.csv` depuis [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
 
 **4. Exécuter le notebook**
 
-Ouvrir `notebooks/churn_prediction.Rmd` dans RStudio, puis cliquer sur **Knit** (ou utiliser la commande suivante) :
-
-```r
-rmarkdown::render("notebooks/churn_prediction.Rmd", output_dir = "reports/")
-```
-
-Le rapport HTML sera généré dans `reports/churn_prediction.html`.
-
+Exécuter le notebook en chargeant les données téléchargées sur google colab
 ---
 
 ## Compétences démontrées
@@ -150,25 +143,8 @@ Ce projet mobilise les compétences suivantes, directement applicables en contex
 - Comparaison rigoureuse de modèles sur un jeu de test indépendant
 - Interprétabilité globale (SHAP) et locale (LIME)
 - Reproductibilité de l'environnement avec `renv`
-- Documentation et communication des résultats avec R Markdown
+- Documentation et communication des résultats 
 
 ---
 
-## Pistes d'amélioration
 
-- Intégration d'un modèle de survie (analyse du temps avant churn) pour une granularité temporelle accrue
-- Déploiement d'une API de scoring en temps réel avec `plumber`
-- Mise en place d'un tableau de bord interactif avec `shiny`
-- Exploration d'un modèle d'ensemble (stacking) combinant les quatre classifieurs
-
----
-
-## Licence
-
-Ce projet est publié sous licence MIT. Les données sont la propriété d'IBM et sont utilisées à des fins pédagogiques conformément à leur licence d'utilisation sur Kaggle.
-
----
-
-## Contact
-
-Pour toute question sur le projet ou la méthodologie, vous pouvez me contacter via [LinkedIn](https://www.linkedin.com) ou ouvrir une issue sur ce dépôt.
