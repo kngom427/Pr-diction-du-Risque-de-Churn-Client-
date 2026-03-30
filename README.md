@@ -2,7 +2,7 @@
 
 **Apprentissage supervisé — Classification binaire avec `tidymodels` et R**
 
-Master 1 Data Science | Projet personnel
+Master 1 Informatique 
 
 ---
 
