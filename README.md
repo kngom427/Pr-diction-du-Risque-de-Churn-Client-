@@ -130,6 +130,7 @@ Télécharger le fichier `WA_Fn-UseC_-Telco-Customer-Churn.csv` depuis [Kaggle](
 **4. Exécuter le notebook**
 
 Exécuter le notebook en chargeant les données téléchargées sur google colab
+
 ---
 
 ## Compétences démontrées
