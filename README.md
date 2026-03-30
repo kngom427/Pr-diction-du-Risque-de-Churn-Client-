@@ -55,7 +55,7 @@ Comparaison de quatre algorithmes via le framework `tidymodels` :
 Validation croisée stratifiée à 5 plis (k-fold) avec recherche aléatoire des hyperparamètres (`tune_grid`).
 
 **5. Evaluation**
-Métriques retenues : AUC-ROC (métrique principale), F1-Score, Précision, Rappel, Accuracy. Analyse du seuil de classification optimal en fonction du compromis précision/rappel.
+Métriques retenues : AUC-ROC (métrique principale), F1-Score, Précision, Rappel, Accuracy.
 
 **6. Interprétabilité**
 - Importance globale des variables (impureté de Gini, Random Forest)
@@ -70,10 +70,10 @@ Les performances obtenues sur le jeu de test (20 % des données, stratifié) son
 
 | Modèle                | AUC-ROC | F1-Score | Précision | Rappel |
 |-----------------------|---------|----------|-----------|--------|
-| XGBoost               | 0.845   | 0.637    | 0.681     | 0.598  |
-| Random Forest         | 0.838   | 0.628    | 0.672     | 0.589  |
-| Régression Logistique | 0.812   | 0.601    | 0.651     | 0.558  |
-| SVM (RBF)             | 0.808   | 0.594    | 0.644     | 0.552  |
+| XGBoost               | 0.8319   | 0.6083    | 0.5580     | 0.6684 |
+| Random Forest         | 0.8263   | 0.5773    | 0.5526     | 0.6043  |
+| Régression Logistique | 0.8268   | 0.5945    | 0.5178     | 0.7005  |
+| SVM (RBF)             | 0.8179   | 0.5972    | 0.5027     | 0.7353  |
 
 *Les valeurs exactes sont calculées et affichées dynamiquement dans le notebook lors de son exécution.*
 
